@@ -1,7 +1,7 @@
 import XCTest
-@testable import arm_ios_sdk
+@testable import ArmSdk
 
-final class arm_ios_sdkTests: XCTestCase {
+final class ArmSdkTests: XCTestCase {
     func testExample() throws {
         
         let exp = expectation(description: "Loading")
