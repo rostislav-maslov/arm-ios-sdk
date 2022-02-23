@@ -13,7 +13,7 @@ public class ArmSDK{
     public static var URL = ""
     static let service = RequestService()
     
-    static func start(
+    public static func start(
         armURL: String,
         app: String,
         appVersion: String){
@@ -24,27 +24,27 @@ public class ArmSDK{
             SessionArm.initSession()                                    
         }
     
-    static func setPhone(_ phone: String){
+    public static func setPhone(_ phone: String){
         SessionArm.setPhone(phone: phone)
     }
     
-    static func setUtm(_ url: String){
+    public static func setUtm(_ url: String){
         SessionArm.setUtm(url: url)
     }
     
-    static func event(code: String){
+    public static func event(code: String){
         EventArm.event(code: code)
     }
     
-    static func event(code: String, value: String){
+    public static func event(code: String, value: String){
         EventArm.event(code: code, value: value)
     }
     
-    static func event(code: String, value: Float){
+    public static func event(code: String, value: Float){
         EventArm.event(code: code, value: value)
     }
     
-    static func event(code: String, valueAny: String){
+    public static func event(code: String, valueAny: String){
         EventArm.event(code: code, valueAny: valueAny)
     }
     

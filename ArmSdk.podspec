@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ArmSdk'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'This is summary'
  
   s.description      = <<-DESC
