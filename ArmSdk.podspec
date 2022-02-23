@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ArmSdk'
   s.version          = '0.1.0'
-  s.summary          = ''
+  s.summary          = 'This is summary'
  
   s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
