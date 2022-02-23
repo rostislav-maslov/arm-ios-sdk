@@ -13,6 +13,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.source           = { :git => 'https://github.com/rostislav-maslov/arm-ios-sdk.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'ArmSdk/ArmSDK.swift'
+  s.source_files = 'Sources/ArmSdk/ArmSDK.swift'
  
 end
